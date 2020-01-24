@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(
+        rgba(20,20,20, .5), 
+        rgba(20,20,20, .5)),  url(../images/about-1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    text-align: center;
+}
+header div h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.icons span{
+    font-size: 40px;
+    padding-top: 3%;
+    color: rgb(80, 4, 151);
+    
+}
+.background2{
+    height: 50vh;
+    background: url(../images/module-1.jpg), linear-gradient( rgba(20,20,20, .5), 
+    rgba(20,20,20, .5));
+    background-position: right;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+.img2f{
+    height: 430px;
+    box-shadow: 10px 10px 10px  black;
+}
+.background3{
+    height: 60vh;
+    width: 100vw;
+    background: url(../images/about-3.jpg); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (max-width: 930px) {
+    .img2f{
+        width: 80%;
+    }
+}
+.photo img{
+    margin-bottom: 50px;
+
+}   
+.photo{
+    margin-right: 20%;
+    margin-left: 20%;
+} 
+.final{
+    height: 70vh;
+    width: 100vw;
+    background-image: url(../images/module-18.jpg);
+    background-size: cover;
+    margin-top: 100px;
+    background-position: center;
+}
